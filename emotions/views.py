@@ -33,7 +33,7 @@ def index(request):
         'text' : text,
         'data' : data,
     }
-    
+    print(text)
     return render(request, 'emotions/index.html', context)
 
 def create(request):
